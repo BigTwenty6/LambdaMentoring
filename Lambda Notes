@@ -1,0 +1,27 @@
+Lambda Notes - 
+
+Introduced in Java 8.
+
+Lambda expression (or function) is just an anonymous function, i.e., a function with no name and without being bounded to an identifier.
+
+This method is not executed on its own. Instead, it is used to implement a method defined by a _functional interface_.
+
+A functional interface is an interface that contains one and only one abstract method. Normally, this method specifies the intended purpose of the interface.
+
+	- functional interface typically represents a single action
+	- lambda expression is an instance of a functional interface
+
+The lambda syntax requires the lambda operator or the arrow operator: –>
+	- The left side specifies any parameters required by the lambda expression. On the right side is the lambda body, which specifies the actions of the lambda expression.
+
+
+Benefits of Lambda:
+	- Enables functional programming
+	- Readable and concise code
+	- I do not know what the other benefits are
+
+In OOP, functions/methods do not exist outside of classes or objects. 
+
+
+
+
